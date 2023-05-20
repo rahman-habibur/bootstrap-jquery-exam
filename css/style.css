@@ -1,0 +1,31 @@
+
+.header{
+    padding: 0;
+    margin: 0;
+    background-color: yellow !important;
+}
+.text-yellow{
+    color: yellow !important;
+}
+
+.scroll-to-top{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50%;
+    transition: .3s ease-in;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+.scroll-to-top:hover{
+    background-color: #000;
+    color: red;
+}
